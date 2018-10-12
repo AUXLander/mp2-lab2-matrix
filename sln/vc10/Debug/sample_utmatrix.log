@@ -1,0 +1,45 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(391,5): warning MSB8028: промежуточный каталог (Debug\) содержит файлы, которые используются совместно с другим проектом (gtest.vcxproj, test_utmatrix.vcxproj).  Это может привести к ошибкам очистки и перестроения.
+  sample_matrix.cpp
+c:\users\auxla\desktop\lab2\mp2-lab2-matrix\include\utmatrix.h(261): warning C4018: <: несоответствие типов со знаком и без знака
+  c:\users\auxla\desktop\lab2\mp2-lab2-matrix\include\utmatrix.h(256): note: при компиляции функции-члена "<Нет данных>" класса класс <Нет данных>
+  c:\users\auxla\desktop\lab2\mp2-lab2-matrix\samples\sample_matrix.cpp(13): note: выполняется компиляция ссылки на экземпляр шаблон функции "TMatrix<int>::TMatrix(int)"
+  c:\users\auxla\desktop\lab2\mp2-lab2-matrix\samples\sample_matrix.cpp(13): note: выполняется компиляция ссылки на экземпляр шаблон класс "TMatrix<int>"
+c:\users\auxla\desktop\lab2\mp2-lab2-matrix\include\utmatrix.h(317): warning C4018: <: несоответствие типов со знаком и без знака
+  c:\users\auxla\desktop\lab2\mp2-lab2-matrix\include\utmatrix.h(308): note: при компиляции функции-члена "<Нет данных>" класса класс <Нет данных>
+  c:\users\auxla\desktop\lab2\mp2-lab2-matrix\samples\sample_matrix.cpp(25): note: выполняется компиляция ссылки на экземпляр шаблон функции "TMatrix<int> &TMatrix<int>::operator =(const TMatrix<int> &)"
+c:\users\auxla\desktop\lab2\mp2-lab2-matrix\include\utmatrix.h(329): warning C4018: <: несоответствие типов со знаком и без знака
+  c:\users\auxla\desktop\lab2\mp2-lab2-matrix\include\utmatrix.h(325): note: при компиляции функции-члена "<Нет данных>" класса класс <Нет данных>
+  c:\users\auxla\desktop\lab2\mp2-lab2-matrix\samples\sample_matrix.cpp(25): note: выполняется компиляция ссылки на экземпляр шаблон функции "TMatrix<int> TMatrix<int>::operator +(const TMatrix<int> &)"
+c:\users\auxla\desktop\lab2\mp2-lab2-matrix\include\utmatrix.h(75): warning C4018: <: несоответствие типов со знаком и без знака
+  c:\users\auxla\desktop\lab2\mp2-lab2-matrix\include\utmatrix.h(64): note: при компиляции функции-члена "<Нет данных>" класса класс <Нет данных>
+  c:\users\auxla\desktop\lab2\mp2-lab2-matrix\include\utmatrix.h(262): note: выполняется компиляция ссылки на экземпляр шаблон функции "TVector<ValType>::TVector(int,int)"
+          with
+          [
+              ValType=int
+          ]
+  c:\users\auxla\desktop\lab2\mp2-lab2-matrix\include\utmatrix.h(256): note: при компиляции функции-члена "<Нет данных>" класса класс <Нет данных>
+  c:\users\auxla\desktop\lab2\mp2-lab2-matrix\samples\sample_matrix.cpp(13): note: выполняется компиляция ссылки на экземпляр шаблон функции "TMatrix<int>::TMatrix(int)"
+c:\users\auxla\desktop\lab2\mp2-lab2-matrix\include\utmatrix.h(137): warning C4018: <: несоответствие типов со знаком и без знака
+  c:\users\auxla\desktop\lab2\mp2-lab2-matrix\include\utmatrix.h(127): note: при компиляции функции-члена "<Нет данных>" класса класс <Нет данных>
+  c:\users\auxla\desktop\lab2\mp2-lab2-matrix\include\utmatrix.h(263): note: выполняется компиляция ссылки на экземпляр шаблон функции "TVector<ValType> &TVector<ValType>::operator =(const TVector<ValType> &)"
+          with
+          [
+              ValType=int
+          ]
+c:\users\auxla\desktop\lab2\mp2-lab2-matrix\include\utmatrix.h(188): warning C4018: <: несоответствие типов со знаком и без знака
+  c:\users\auxla\desktop\lab2\mp2-lab2-matrix\include\utmatrix.h(181): note: при компиляции функции-члена "<Нет данных>" класса класс <Нет данных>
+  c:\users\auxla\desktop\lab2\mp2-lab2-matrix\include\utmatrix.h(330): note: выполняется компиляция ссылки на экземпляр шаблон функции "TVector<ValType> TVector<ValType>::operator +(const TVector<ValType> &)"
+          with
+          [
+              ValType=int
+          ]
+c:\users\auxla\desktop\lab2\mp2-lab2-matrix\include\utmatrix.h(84): warning C4018: <: несоответствие типов со знаком и без знака
+  c:\users\auxla\desktop\lab2\mp2-lab2-matrix\include\utmatrix.h(81): note: при компиляции функции-члена "<Нет данных>" класса класс <Нет данных>
+  c:\users\auxla\desktop\lab2\mp2-lab2-matrix\include\utmatrix.h(192): note: выполняется компиляция ссылки на экземпляр шаблон функции "TVector<ValType>::TVector(const TVector<ValType> &)"
+          with
+          [
+              ValType=int
+          ]
+  c:\users\auxla\desktop\lab2\mp2-lab2-matrix\include\utmatrix.h(272): note: при компиляции функции-члена "<Нет данных>" класса класс <Нет данных>
+  c:\users\auxla\desktop\lab2\mp2-lab2-matrix\include\utmatrix.h(333): note: выполняется компиляция ссылки на экземпляр шаблон функции "TMatrix<int>::TMatrix(const TMatrix<int> &)"
+  sample_utmatrix.vcxproj -> C:\Users\auxla\Desktop\lab2\mp2-lab2-matrix\sln\vc10\Debug\sample_utmatrix.exe
